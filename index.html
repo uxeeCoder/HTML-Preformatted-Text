@@ -4,17 +4,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=h1, initial-scale=1.0">
     <title>Preformatted-Text</title>
+    <style>
+    .h2 {
+        color: rgb(5, 9, 210);
+    } 
+    .h3 {
+        color: #f9f9fc;
+        background-color: #5a5a5e;
+    } 
+    </style>
     
 </head>
 <body>
-    <h1>Preformatted-Text</h1>
+    <h1 style="color: brown;">Preformatted-Text | 'pre' element</h1>
 
     <main>
         <section>
-            <h2>Defination and use of Pre element:</h2>
+            <h2 class="h2">Defination of 'pre' element:</h2>
             <p> 'Pre' element reprensents preformatted text in html, it helps retain orginally written and formatted html.
-                It can be used to display code snippets, formatted text, maintaining orginal spacing and line breaks.
+                It can be used to display code snippets, formatted text, maintaining orginal spacing and line breaks.  
             </p>
+
+            <h2 class="h2">'pre' element for line breaks and spacing:</h2>
+            <h3 class="h3">With 'pre' elemet line breaks and spacing maintain as intended.</h3>
 
             <pre> 
                 *
@@ -31,8 +43,28 @@
       / + + + + + + + + + \
      ||[][][][]   [][][][]||
         </pre>
+
+        <h3 class="h3">With 'P' element, spacing and line breaks are lost </h3>
+
+            
+            
+            *
+            |
+          _/o\_
+         _/   \_
+         \     /
+         \     /
+         \=[+]=/
+        \= = = =/
+        \= [+] =/
+    ____\       /____
+   |_________________| 
+  / + + + + + + + + + \
+ ||[][][][]   [][][][]||</p>
         </section>
         <Section>
+            <h2 class="h2">'pre' element for JS code snippets</h2>
+            <h3 class="h3"> With 'p' element Js code shows on one line:</h3>
             <p>
 
 let favoriteFood = "Pizza";
@@ -45,7 +77,7 @@ console.log(myFavStuff);
             </p>
 
 
-            <p> In example below with "pre" element JS code retains its formatting, as its written and doesn't show all code on one line like is does with a "P" element</p>
+            <h3 class="h3"> With "pre" element JS code retains its formatting:</h3>
             <pre>
 
 
